@@ -1,0 +1,61 @@
+body{
+   
+}
+
+div{
+    border: solid 5px black;
+    border-radius: 5px;
+}
+
+#header{
+    margin: -10px 5px 0 -5px ;
+    padding: 5px;
+    background-color:#007399;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    position:fixed;
+    z-index:1;
+    width: 97.5%;
+    height:120px;
+    
+  
+}
+
+#name{
+    float:left;
+    font-family: "Brush Script MT", cursive;
+    font-size:90px;
+    margin-top:-10px;
+    margin-left: 100
+    
+}
+
+#email{
+    float:right;
+    margin-top:-15px;
+	margin-right: 5px;
+	color:#ff8080
+}
+.right{
+    float:right;
+    background-color: #4dc6ff;
+    height:1000;
+    width:100;
+    clear:both;
+    
+}
+
+.left{
+    float:left;
+    background-color: #4dc6ff;
+    height:1000;
+    width:100;
+}
+
+#footer{
+    padding: 50px;
+    background-color:#007399;
+    position:relative;
+    display:block;
+    clear:both;
+}
