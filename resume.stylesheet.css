@@ -3,7 +3,7 @@ body{
 }
 
 div{
-    border: solid 5px black;
+    border: 5px black;
     border-radius: 5px;
 }
 
@@ -17,8 +17,7 @@ div{
     z-index:1;
     width: 97.5%;
     height:120px;
-    
-  
+    border: solid;
 }
 
 #name{
@@ -27,22 +26,22 @@ div{
     font-size:90px;
     margin-top:-10px;
     margin-left: 100
-    
 }
 
 #email{
     float:right;
-    margin-top:-15px;
+    margin-top:-10px;
 	margin-right: 5px;
 	color:#ff8080
 }
+
 .right{
     float:right;
-    background-color: #4dc6ff;
     height:1000;
-    width:100;
-    clear:both;
-    
+    width:90%;
+    position:relative;
+    top: 150;
+    background-color:#b3ffb3;
 }
 
 .left{
@@ -56,6 +55,9 @@ div{
     padding: 50px;
     background-color:#007399;
     position:relative;
+    border: solid;
+    top: 170;
     display:block;
     clear:both;
+    bottom: 50;
 }
