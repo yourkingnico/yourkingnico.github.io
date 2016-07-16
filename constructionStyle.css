@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+}
+
+div{
+    background-color:orange;
+    font-size:20px;
+}
+
+img{
+    position:relative;
+    left:20%;
+}
