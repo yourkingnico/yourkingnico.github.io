@@ -36,7 +36,7 @@ if(!Detector.webgl){
       TWEEN.start();
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', 'C:/Users/nicos_000/Desktop/webgl-globe/population909500.json', true);
+      xhr.open('GET', '/population909500.json', true);
 	  alert('2');
       xhr.onreadystatechange = function(e) {
 		  alert('3');
