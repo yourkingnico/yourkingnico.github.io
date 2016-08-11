@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "There's always a bigger fish. - Qui Gon Jinn" 
   - text: "Did you just ruin poker night?"
-  - text: " "The world is changing, and we must change with it." - Ragnar Lothbrok"
+  - text: " The world is changing, and we must change with it. - Ragnar Lothbrok"
  
   
 
@@ -90,7 +90,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 40
 
 paginate: 5
 
@@ -129,7 +129,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "njtorres@bsu.edu"
+#email: "njtorres@bsu.edu"
 
 ################
 # Author Blurb #
@@ -139,7 +139,7 @@ email: "njtorres@bsu.edu"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb:
 #author_blurb_image: ""
 
 ##################
@@ -173,7 +173,7 @@ keybase-in-footer: false
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Blog: 'nicks picks'
   Timeline: 'timeline'
   Contact: 'contact'
 
