@@ -57,6 +57,9 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "There's always a bigger fish. - Qui Gon Jinn" 
   - text: "Did you just ruin poker night?"
+  - text: " "The world is changing, and we must change with it." - Ragnar Lothbrok"
+ 
+  
 
 me-img: ""
 
@@ -82,7 +85,7 @@ icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 
 ########
-# Blog #
+# Nick's Picks #
 ########
 
 enable-gesture-navigation: True
