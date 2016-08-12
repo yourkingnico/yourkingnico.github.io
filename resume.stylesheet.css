@@ -1,3 +1,6 @@
+body{
+	background color: black;
+}
 div{
     border: 5px black;
     border-radius: 5px;
