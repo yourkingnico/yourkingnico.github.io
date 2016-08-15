@@ -173,7 +173,7 @@ keybase-in-footer: false
 
 pages_list:
   About: 'about'
-  Blog: 'nicks picks'
+  Nick's Picks: 'indexG.html'
   Timeline: 'timeline'
   Contact: 'contact'
 
