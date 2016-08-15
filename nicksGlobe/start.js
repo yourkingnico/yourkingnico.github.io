@@ -44,7 +44,6 @@ if(!Detector.webgl){
               globe.addData(data[i][1], {format: 'magnitude', name: data[i][0], animated: true});
 			  
             }
-			alert('a');
             globe.createPoints();
             settime(globe,0)();
             globe.animate();
