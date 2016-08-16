@@ -59,10 +59,9 @@ lines: # You can add HTML Tags in the Text
   - text: "Did you just ruin poker night?"
   - text: " The world is changing, and we must change with it. - Ragnar Lothbrok"
  
-  
-
-me-img: ""
-
+me-img: "/img/IMG_2251.jpg"
+ 
+ 
 ##############################
 # Color the browser elements #
 ##############################
