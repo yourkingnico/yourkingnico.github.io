@@ -24,7 +24,18 @@ body{
 	padding: 50px 200px 300px 50px;
 	display: inline-block;
 	height:600px;
-	width: 900px;
+	width: 1000px;
+}
+
+.projectLarge{
+	position:relative;
+	border-style: solid;
+    border-color: #0099cc;
+	padding: 50px 200px 300px 50px;
+	display: inline-block;
+	height:800px;
+	width: 1000px;
+	font-size:20px;
 }
 
 #jyPic{
@@ -36,4 +47,8 @@ body{
 	width:320px;
 	font-size:20px;
 	padding-top: 140px;
+}
+
+#basePic{
+	
 }
