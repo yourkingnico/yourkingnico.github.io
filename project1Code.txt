@@ -1,0 +1,135 @@
+Written by Nicholas Torres
+
+def black(canvas):
+  newBlack=makeColor(0,0,0)
+  for p in getPixels(canvas):
+    setColor(p,newBlack)
+  return(canvas)
+  #changes input to black
+
+
+def swag(pic5,bg):
+   for x in range(0,getWidth(pic5)):
+     for y in range(0,106):
+       p=getPixel(pic5,x,y)
+       currentRed=getRed(p)
+       currentBlue=getBlue(p)
+       currentGreen=getGreen(p)
+       newColor=makeColor(255-currentRed, 255-currentBlue, 255-currentGreen)
+       setColor(p, newColor)
+    
+   for x in range(0,getWidth(pic5)):
+    for y in range (0,106):
+      p=getPixel(pic5,x,y)
+      if(getRed(p)+ getBlue(p)+ getGreen(p)) <40:
+        setColor(p,getColor(getPixel(bg,x,y)))
+   return(pic5)
+   #turns half the picture negative, then turns the lower pixel values to bg
+
+def base(source,bg):
+  for x in range(0,getWidth(source)):
+    for y in range (0,getHeight(source)):
+      p=getPixel(source,x,y)
+      if(getRed(p)+ getBlue(p)+ getGreen(p)) <360:
+        setColor(p,getColor(getPixel(bg,x,y)))
+  return(source)
+  #converts picture to changed base bg based on pixel value
+
+
+def grayScale(pic3):
+  for p in getPixels(pic3):
+    currRed=getRed(p)
+    currBlue=getBlue(p)
+    currGreen=getGreen(p)
+    newRGB=(currRed+currGreen+currBlue)/3
+    newColor=makeColor(newRGB, newRGB, newRGB)
+    setColor(p,newColor)
+  return(pic3)
+  #converts pic to grayscale
+  
+
+def negative(pic2):
+  for p in getPixels(pic2):
+    currentRed=getRed(p)
+    currentBlue=getBlue(p)
+    currentGreen=getGreen(p)
+    newColor=makeColor(255-currentRed, 255-currentBlue, 255-currentGreen)
+    setColor(p, newColor)
+  return(pic2)
+  # converts image to negative
+
+def collage():
+  setMediaFolder("C:\\project3.zip")
+  canvas=makePicture(getMediaFolder("\\Canvas515X700.jpg"))
+  pic1=makePicture(getMediaFolder("\\projcc.jpg"))
+  pic2=makePicture(getMediaFolder("\\projcc.jpg"))
+  pic3=makePicture(getMediaFolder("\\projcc.jpg"))
+  source=makePicture(getMediaFolder("\\projcc.jpg"))
+  pic5=makePicture(getMediaFolder("\\projcc.jpg"))
+  bg=makePicture(getMediaFolder("\\cosmos.jpg"))
+  #Gets canvas and pic1-pic5
+  
+  black(canvas)
+  #changes canvas to black
+  
+  
+  targetX =0
+  for sourceX in range(0,getWidth(pic1)):
+    targetY=63
+    for sourceY in range(0, getHeight(pic1)):
+      color = getColor(getPixel(pic1, sourceX, sourceY))
+      setColor(getPixel(canvas, targetX, targetY), color)
+      targetY=targetY +1
+    targetX= targetX+1
+    #Sets up canvas with initial picture, top left
+    
+    
+  negative(pic2)
+  targetX =257
+  for sourceX in range(0,getWidth(pic2)):
+    targetY=63
+    for sourceY in range(0, getHeight(pic2)):
+      color = getColor(getPixel(pic2, sourceX, sourceY))
+      setColor(getPixel(canvas, targetX, targetY), color)
+      targetY=targetY +1
+    targetX= targetX+1
+    # produces picture 2 negative, top right
+    
+  grayScale(pic3)
+  targetX =0
+  for sourceX in range(0,getWidth(pic3)):
+    targetY=445
+    for sourceY in range(0, getHeight(pic3)):
+      color = getColor(getPixel(pic3, sourceX, sourceY))
+      setColor(getPixel(canvas, targetX, targetY), color)
+      targetY=targetY +1
+    targetX= targetX+1
+    # produces picture 3 grayScale, bottom left
+    
+  base(source, bg)
+  targetX =257
+  for sourceX in range(0,getWidth(source)):
+    targetY=445
+    for sourceY in range(0, getHeight(source)):
+      color = getColor(getPixel(source, sourceX, sourceY))
+      setColor(getPixel(canvas, targetX, targetY), color)
+      targetY=targetY +1
+    targetX= targetX+1
+    #produces picture 4,changed base, bottom right
+    
+  swag(pic5,bg)
+  targetX =129
+  for sourceX in range(0,getWidth(pic5)):
+    targetY=254
+    for sourceY in range(0, getHeight(pic5)):
+      color = getColor(getPixel(pic5, sourceX, sourceY))
+      setColor(getPixel(canvas, targetX, targetY), color)
+      targetY=targetY +1
+    targetX= targetX+1
+    #produces pic 5, half negative with changed pixels on half(sky), center
+    
+  show(canvas)
+  
+# resource copyright Vector bg http://www.vectorbg.net/cosmos-star-background/
+  
+  

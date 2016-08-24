@@ -1,9 +1,8 @@
-
 if(!Detector.webgl){
       Detector.addGetWebGLMessage();
     } else {
 
-      var years = ['visited'];
+      var years = ['visited',];
       var container = document.getElementById('container');
       var globe = new DAT.Globe(container);
 

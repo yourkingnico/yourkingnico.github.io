@@ -85,7 +85,7 @@ icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 
 ########
-# Nick's Picks #
+# Portfolio #
 ########
 
 enable-gesture-navigation: True
@@ -117,6 +117,12 @@ events:
   - image: "/img/timeline/chem.png"
     date: "February 2016 - Today"
     description: "Began working with Ball State Department of Chemistry"
+  - image: "/img/timeline/gradhs.jpg"
+    date: "June 2014"
+    description: "Graduated from Willowbrook High School"
+  - image: "/img/timeline/books.png"
+    date: "Janruary 2014 - May 2014"
+    description: "Attended Devry University"
   - image: "/img/timeline/baracktocat.jpg"
     date: "August 2013"
     description: "Started coding"
@@ -173,7 +179,7 @@ keybase-in-footer: false
 
 pages_list:
   About: 'about'
-  Nick's Picks: 'indexG.html'
+  Portfolio: 'picks.html'
   Timeline: 'timeline'
   Contact: 'contact'
 

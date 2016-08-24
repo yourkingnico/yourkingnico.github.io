@@ -87,10 +87,22 @@
         cursor: pointer;
         -webkit-transition: all 0.1s ease-out;
       }
+	  
+	  .want {
+        font: 26px Georgia;
+        line-height: 26px;
+        height: 130px;
+        text-align: left;
+        float: left;
+        width: 190px;
+        color: orange;
+        cursor: pointer;
+        -webkit-transition: all 0.1s ease-out;
+      }
 
-      .year:hover, .year.active {
+      .year {
         font-size: 23px;
-        color: #fff;
+        color: green;
       }
 
       #ce span {
@@ -121,7 +133,8 @@
   </div>
 
   <div id="currentInfo">
-    <span id="yearvisited" class="visited">Visited</span>
+    <span id="yearvisited" class="visit">Visited</span>
+	<span id="yearunvisited" class="want">Want to visit</span>
   </div>
 
   <a id="ce" href="http://www.chromeexperiments.com/globe">
