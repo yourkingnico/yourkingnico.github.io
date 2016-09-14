@@ -105,7 +105,7 @@ DAT.Globe = function(container, opts) {
     shader = Shaders['earth'];
     uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-    uniforms['texture'].value = THREE.ImageUtils.loadTexture('nicksglobe/world.jpg');
+    uniforms['texture'].value = THREE.ImageUtils.loadTexture('nicksGlobe/world.jpg');
 
     material = new THREE.ShaderMaterial({
 
