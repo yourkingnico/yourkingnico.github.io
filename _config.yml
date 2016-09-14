@@ -116,7 +116,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/corps.jpg"
     date: "September 2016 - Today"
-    description: "Began working with Ball State Digital Corps"
+    description: "Began working with Ball State Digital Corps, Development"
   - image: "/img/timeline/chem.png"
     date: "February 2016 - Today"
     description: "Began working with Ball State Department of Chemistry"
