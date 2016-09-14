@@ -33,7 +33,7 @@ author: "Nicholas Torres"
 title: "{ Nick Torres }"
 description: "Nick Torres' website"
 keywords: "nick, nicholas, torres, nicolas, personal, jekyll, theme"
-favicon: "../img/favicon.ico"
+favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
@@ -60,7 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: " The world is changing, and we must change with it. - Ragnar Lothbrok"
   - text: "It's a trap! - Admiral Ackbar"
  
-me-img: "/img/nick-fall16.JPG"
+me-img: "../img/nick-fall16.JPG"
  
  
 ##############################
