@@ -60,7 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: " The world is changing, and we must change with it. - Ragnar Lothbrok"
   - text: "It's a trap! - Admiral Ackbar"
  
-me-img: "/img/IMG2251.JPG"
+me-img: "/img/nick-fall16.JPG"
  
  
 ##############################
@@ -114,6 +114,9 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/corps.jpg"
+    date: "September 2016 - Today"
+    description: "Began working with Ball State Digital Corps"
   - image: "/img/timeline/chem.png"
     date: "February 2016 - Today"
     description: "Began working with Ball State Department of Chemistry"
