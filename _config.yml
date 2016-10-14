@@ -189,7 +189,7 @@ pages_list:
   About: 'about'
   Timeline: 'timeline'
   Contact: 'contact'
-  Portfolio: 'portfolio.html'
+  Portfolio: 'portfolio/portfolio.html'
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]

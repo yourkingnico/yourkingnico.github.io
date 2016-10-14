@@ -1,8 +1,7 @@
-#Ptitle{
+#ptitle{
 	position: relative;
 	padding-top:100px;
 }
-
 #projectOne{
 	position:relative;
 	border-style: solid;
@@ -11,7 +10,6 @@
 	display: inline-block;
 	height:850px;
 	width: 1300px;
-	
 }
 .projectTwo{
 	position:relative;
@@ -29,7 +27,6 @@
 }
 #jyPic{
 	float: right;
-	
 }
 #pintro{
 	width:320px;
@@ -40,5 +37,4 @@
 	postition: absolute;
 	float: left;
 	font-size:40px;
-	
 }
