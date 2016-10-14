@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+
+	<body>
+	{% include navigation.html %}
+	
+	{{ page.content | markdownify }}
+		
+	{% include footer.html %}
+
+	{% include js.html %}
+	</body>
+</html>

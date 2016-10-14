@@ -1,0 +1,44 @@
+#Ptitle{
+	position: relative;
+	padding-top:100px;
+}
+
+#projectOne{
+	position:relative;
+	border-style: solid;
+    border-color: #0099cc;
+	padding: 50px 200px 300px 50px;
+	display: inline-block;
+	height:850px;
+	width: 1300px;
+	
+}
+.projectTwo{
+	position:relative;
+	border-style: solid;
+    border-color: #0099cc;
+	padding: 50px 200px 300px 50px;
+	display: inline-block;
+	height:990px;
+	width: 1300px;
+	font-size:18px;
+}
+#p2Text{
+	font-size:18px;
+	padding-top:5px;
+}
+#jyPic{
+	float: right;
+	
+}
+#pintro{
+	width:320px;
+	font-size:20px;
+	padding-top: 140px;
+}
+.projectTitle{
+	postition: absolute;
+	float: left;
+	font-size:40px;
+	
+}
