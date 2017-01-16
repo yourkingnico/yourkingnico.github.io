@@ -52,17 +52,12 @@ shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
-start-delay: 200
+start-delay: 100
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "There's always a bigger fish. - Qui Gon Jinn" 
-  - text: "Did you just ruin poker night?"
-  - text: "The world is changing, and we must change with it. - Ragnar Lothbrok"
-  - text: "It's a trap! - Admiral Ackbar"
-  - text: "What is dead may never die - The Ironborn"
-  - text: "I think we're all learning. I know I am. - Joe Quenneville (Coach Q)"
-  - text: "Investors? Possibly you! - Step Brothers"
- 
+  - text: "You are being re-directed to the new domain..."
+
+
 me-img: "/img/IMG2251.JPG"
  
  
